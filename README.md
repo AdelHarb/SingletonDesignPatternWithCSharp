@@ -11,9 +11,9 @@ the application to refresh it. for example the application configuration.
 
 How to apply singleton design pattern:
 
-1- Making the Constructor Private, in my cae, in the EmployeeDataStore.
+# 1- Making the Constructor Private, in my cae, in the EmployeeDataStore.
 
-2- Making new _instance of the same type of the constructor.
+# 2- Making new _instance of the same type of the constructor.
 
 #    notice that this reference "_instance" does not point to an object which will cause NullReferenceException
 #    there is a solution which is eager initialization
